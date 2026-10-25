@@ -1,0 +1,32 @@
+{
+ "args": {
+  "model": "openai/whisper-small",
+  "out": "runs/lora_aug",
+  "augment": true,
+  "epochs": 2,
+  "bs": 1,
+  "accum": 16,
+  "grad_ckpt": true,
+  "lr": 0.001,
+  "rank": 32,
+  "enc_layers": 4,
+  "seed": 0,
+  "val_n": 120
+ },
+ "log": [
+  {
+   "epoch": 0,
+   "step": 132,
+   "train_loss": 0.5309454007615857,
+   "val_wer": 0.2871464375223774,
+   "val_cer": 0.11177486684899957
+  },
+  {
+   "epoch": 1,
+   "step": 264,
+   "train_loss": 0.290285254377722,
+   "val_wer": 0.24203365556749015,
+   "val_cer": 0.08946307758744781
+  }
+ ]
+}
