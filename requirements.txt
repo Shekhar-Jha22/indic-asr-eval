@@ -1,0 +1,10 @@
+torch>=2.3
+transformers>=4.44
+peft>=0.12
+jiwer>=3.0
+numpy
+scipy
+pyarrow
+soundfile
+matplotlib
+pytest
